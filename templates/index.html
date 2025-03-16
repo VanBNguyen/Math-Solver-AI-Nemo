@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nemo AI</title>
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Nemo AI</h1>
+    <input type="text" id="mathInput" placeholder="Enter a math equation (ex. x^2 + 4x + 4 = 0)">
+    <button onclick="solveMath()">Solve</button>
+    <p id="result"></p>
+</body>
+</html>

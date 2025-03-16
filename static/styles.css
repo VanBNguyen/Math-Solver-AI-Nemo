@@ -1,0 +1,58 @@
+/* Apply styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #007bff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Style for the main heading */
+h1 {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Style for the input box */
+input {
+    width: 60%;
+    padding: 12px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+    background: white;
+    color: black;
+}
+
+/* Style for the button */
+button {
+    background-color: white;
+    color: #007bff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Style for the result text */
+p#result {
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+}
