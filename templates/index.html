@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
+    <img src="{{ url_for('static', filename='nemo_logo.png') }}" alt="Nemo Logo" width="150">
     <h1>Nemo AI</h1>
     <input type="text" id="mathInput" placeholder="Enter a math equation (ex. x^2 + 4x + 4 = 0)">
     <button onclick="solveMath()">Solve</button>
     <p id="result"></p>
+    <img src="{{ url_for('static', filename='nemo_logo.png') }}" alt="Nemo Logo" width="150">
 </body>
 </html>
